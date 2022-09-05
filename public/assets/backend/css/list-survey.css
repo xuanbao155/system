@@ -1,0 +1,151 @@
+label.answer_label.text_input_search {
+    text-align: left;
+    width: 200px;
+}
+.question_field .question_body-container {
+    height: 83px;
+}
+.question_body-container.question_body-cell_container.body-cell_container_check {
+    display: grid;
+}
+label.answer_label.answer_label_item1 {
+    text-align: left;
+}
+label.answer_label.answer_label_item1 {
+    padding-top: 0;
+}
+.btn-primary_login_search {
+    width: 150px !important;
+}
+input.text_input.datepicker.hasDatepicker {
+    max-width: 100%;
+    /* width: calc(100% - 28px) !important; */
+    text-align: center;
+}
+.ui-datepicker-trigger {
+    margin-top: 8px;
+}
+button.btn.btn-sm.btn-primary_login.btn-primary_login_search {
+    /* background: #fff; */
+    text-rendering: optimizeSpeed;
+    /* text-align: left; */
+    overflow-x: hidden;
+    color: #fff;
+    font-family: "Noto Sans JP", "sans-serif" !important;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.question_body-cell_cont {
+    width: 24%;
+}
+.nothing_data_exist {
+    text-align: center;
+    font-family: "Noto Sans JP", "sans-serif" !important;
+    font-weight: 400;
+    font-size: 1rem;
+    text-rendering: optimizeSpeed;
+    line-height: 1.8;
+    padding-top: 5px;
+}
+
+/* select.ui-datepicker-year {
+  -webkit-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit; 
+}*/
+a.ui-datepicker-prev.ui-corner-all {
+    margin-top: 3px;
+}
+a.ui-datepicker-next.ui-corner-all {
+    margin-top: 3px;
+}
+@media screen and (max-width: 1028px) {
+    .question_field .question_body-cell2 {
+        width: 50%;
+    }
+    .text_input-wrap {
+        width: calc(100% - 2px) !important;
+    }
+    .question_body-container.question_body-cell_container.body-cell_container_item {
+        width: calc(100% - 46px);
+        padding: 8px 4px;
+    }
+    input.text_input.datepicker.hasDatepicker {
+        max-width: 100%;
+        width: calc(100% - 28px);
+    }
+    .text_input-container.text_input-container_item {
+        width: calc(50% - 11px);
+        height: 34px;
+    }
+    .question_body-container.question_body-cell_container.body-cell_container_check {
+        width: 50% !important;
+    }
+    .question_body-cell_cont {
+        width: 0;
+    }
+    
+    .question_body-cell_container_child.w-100 {
+        justify-content: center;
+    }
+}
+@media (min-width: 1029px) and (max-width: 1139px){ 
+    
+    .question_body-container.question_body-cell_container.body-cell_container_item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    input.text_input.datepicker.hasDatepicker {
+        max-width: 100%;
+        width: calc(100% - 25px) !important;
+    }
+    .text_input-container.text_input-container_item {
+        /* width: calc(50% - 43px) !important; */
+        height: 34px;
+    }
+    .question_body-container.question_body-cell_container.body-cell_container_item {
+        /* width: calc(100% - 89px); */
+        width: calc(100% - -66px);
+        padding: 8px 4px;
+    }
+    
+    .question_field .question_body-cell2 {
+        width: 50%;
+    }
+    .text_input-wrap {
+        width: 100% !important;
+    }
+    .question_body-container.question_body-cell_container.body-cell_container_check {
+        width: 100% !important;
+    }
+}
+.question_field-container {
+    margin: 0 0 0;
+}
+.question_field {
+    margin: 0 0 0 0;
+}
+a {
+    text-decoration-line: none;
+    color: #007dff;
+}
+.text_input-container.text_input-container_item {
+    width: auto;
+    height: 34px;
+}
+@media screen and (min-width: 767px) {
+    .text_input-wrap {
+        width: calc(100%) !important;
+    }
+}

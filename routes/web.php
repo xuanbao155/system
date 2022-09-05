@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
 });
+
+/**
+ * List
+ */
+// Route::get('/list-offer', 'ListOfferController@index')->name('ListOffer.index');
+// Route::post('/list-offer', 'ListOfferController@search')->name('ListOffer.post');

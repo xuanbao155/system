@@ -1,0 +1,596 @@
+.dataTables_scroll {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.dataTables_scrollHeadInner .table {
+    border-top: 1px solid #ddd;
+}
+
+.item-error {
+    border: solid 1px red !important;
+}
+
+#has-balloontip-class {
+    position: absolute;
+    top: -27px;
+    color: red;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin-bottom: 0;
+    min-width: 100px;
+    /* z-index: 9999999999 !important; */
+    background: white !important;
+    white-space: nowrap;
+    margin: 0 0 5px;
+}
+
+.arrow {
+    border-top: 5px solid red;
+    border-right: 11px solid transparent;
+    content: "";
+    height: 0;
+    left: 15px;
+    position: absolute;
+    top: 24px;
+    width: 0;
+}
+
+input:not(.item-error):focus,
+select:not(.item-error):focus,
+textarea:not(.item-error):focus {
+    background-color: #E0F2F1;
+    border: 1px solid #00897B !important;
+    /*outline: 1px solid #26A69A !important;*/
+}
+
+input[type="radio"]:not(.item-error):focus,
+input[type="checkbox"]:not(.item-error):focus {
+    /* outline: 1px solid #26A69A !important; */
+}
+
+textarea {
+    resize: none;
+}
+
+.search-div {
+    /*padding: 10px;*/
+    padding: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #26a69a;
+}
+
+.navbar-inverse .navbar-nav>li:hover {
+    background: #26a69a;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: white;
+}
+
+/* DuyTP 2016/12/15 fix yearmonth width, set text align center*/
+.datepicker,
+.month {
+    width: 100px !important;
+}
+
+/* end */
+/* DuyTP 2016/12/16 add show box for radio, checkbox on focused*/
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+    box-shadow: 0px 0px 6px rgb(70, 134, 72) !important;
+    /*outline:1px solid rgb(70, 134, 72)!important;*/
+}
+
+/* end */
+
+
+.ui-datepicker-trigger {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.ui-datepicker-trigger:hover {
+    cursor: pointer;
+}
+
+/*fix year - month select box alignment*/
+.ui-datepicker-month {
+    position: relative;
+    top: -1px;
+}
+
+
+/*
+* DatePicker UI
+*/
+
+.ui-widget-header {
+    background: #7aba7b !important;
+    border: 1px solid
+}
+
+.ui-datepicker-title span {
+    color: #fff;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    background: #e6e6e6 !important;
+}
+
+.ui-datepicker-calendar th span {
+    color: black !important;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #7aba7b !important;
+    outline: solid #7aba7b 1px;
+    outline-offset: -1px;
+}
+
+.ui-state-default:hover {
+    border: 1px solid #7aba7b !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #7aba7b !important;
+    background: #86D6C6 !important;
+}
+
+.ui-priority-secondary {
+    font-weight: bold !important;
+    opacity: 1 !important;
+}
+
+.date {
+    text-align: center;
+    display: inline;
+}
+
+.month {
+    text-align: center;
+    display: inline;
+}
+
+/*
+* DatePicker
+*/
+.ui-widget-header {
+    background: #7aba7b !important;
+}
+
+.ui-state-default:hover {
+    border: 1px solid #7aba7b !important;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #7aba7b !important;
+    outline: solid #7aba7b 1px;
+    background: #7aba7b !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    background: #86D6C6 !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #7aba7b !important;
+    background: #86D6C6 !important;
+}
+
+.ui-datepicker-title select {
+    height: 26px !important;
+    border-radius: 3px;
+}
+
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 13px !important;
+}
+
+/* not drop when calendar with is too small */
+.date {
+    min-width: 145px;
+    width: 125px;
+}
+
+.date-from-to {
+    min-width: 290px;
+}
+
+/* VuongVT: 2017/03/22 -  Edit for textbox of datepicker */
+.datepicker.form-control {
+    text-align: center;
+    display: inline;
+}
+
+.month {
+    text-align: center;
+    display: inline;
+}
+
+/* End edit VuongVT: 2017/03/22 */
+.tr-table {
+    cursor: pointer;
+}
+
+button.add-row,
+button.delete-row {
+    background: none;
+    border: none;
+}
+
+button.delete-row:hover,
+button.delete-row:focus,
+button.delete-row:active,
+button.add-row:hover,
+button.add-row:focus,
+button.add-row:active {
+    color: #FEA912;
+}
+
+.page-header-content a.btn-link:hover,
+.page-header-content a.btn-link:focus {
+    background-color: #E1E3E4;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.page-header-content .btn-float.btn-link {
+    padding: 15px 5px 8px;
+}
+
+.page-header-content a.btn-link {
+    min-width: 70px;
+}
+
+span.select2-selection:hover,
+span.select2-selection:focus,
+span.select2-selection:active,
+div.checkbox div.checker.focus span,
+div.choice.hover,
+div.choice.focus,
+div.choice.active,
+div.checker.focus {
+    background-color: #E0F2F1;
+}
+
+.parent-select {
+    border-radius: 3px;
+}
+
+span.required {
+    color: red;
+}
+
+.progress {
+    height: 36px;
+}
+
+.progress-bar {
+    line-height: 36px;
+}
+
+
+.navbar-brand>img {
+    margin-top: -11px;
+    height: 43px;
+}
+
+.icon_mark_read_status {
+    opacity: 0.5;
+    padding-bottom: 3px;
+}
+
+.icon_mark_read_status:hover {
+    opacity: 0.8;
+    color: #ddd;
+}
+
+.active-color-a {
+    color: #1E88E5 !important;
+}
+
+#ul_notify li {
+    border-top: solid 1px #ddd;
+}
+
+/*DungNN Format Process Bar */
+.format_processbar {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 0;
+}
+
+.content-wrapper .page-title {
+    /*    border-left: 2px solid #FEA912;*/
+    /*border-bottom: 2px solid #FEA912;*/
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+
+.content-wrapper .page-title h4 {
+    display: inline-block;
+    padding-left: 6px;
+    /*border-left: 2px solid #FEA912;*/
+    font-size: 24px;
+}
+
+#wrapper-two-btn {
+    top: 0px;
+    position: absolute;
+    right: 35px;
+    /*background-color: #fff;*/
+    z-index: 1001;
+}
+
+.full_holiday {
+    background-color: #928a8a !important;
+    opacity: 0.8;
+}
+
+.avatar-img {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dropdown-menu > .dropdown-submenu:hover > .dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu > .dropdown-submenu.open > .dropdown-menu {
+    display: block;
+}
+
+/*  */
+.faa-ring {
+    color: #fff
+}
+
+@-webkit-keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+    }
+
+    5% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+
+    10% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    15% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    20% {
+        -webkit-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+    }
+
+    25% {
+        -webkit-transform: rotate(22deg);
+        transform: rotate(22deg)
+    }
+
+    30% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    35% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+
+    45% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+    }
+
+    5% {
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+
+    10% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    15% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    20% {
+        -webkit-transform: rotate(-22deg);
+        -ms-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+    }
+
+    25% {
+        -webkit-transform: rotate(22deg);
+        -ms-transform: rotate(22deg);
+        transform: rotate(22deg)
+    }
+
+    30% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    35% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-12deg);
+        -ms-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+
+    45% {
+        -webkit-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+.faa-ring.animated,
+.faa-ring.animated-hover:hover,
+.faa-parent.animated-hover:hover>.faa-ring {
+    -webkit-animation: ring 2s ease infinite;
+    animation: ring 2s ease infinite;
+    transform-origin-x: 50%;
+    transform-origin-y: 0px;
+    transform-origin-z: initial
+}
+
+/* btn-back */
+#btn_back.btn-back {
+    background: #ecb934;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right: 1rem;
+}
+img.sidebar-brand-full {
+    -o-object-fit: cover;
+    object-fit: cover;
+    font-family: "object-fit: cover";
+    height: 56px;
+    width: 256px;
+    border-bottom: 1px solid #0b627b;
+}
+.c-footer{
+    /* margin-left: 256px; */
+    justify-content: center;
+}
+#sidebar.active {
+    margin-left: -256px;
+}
+
+/* #page-master {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+} */
+.c-wrapper {
+    transition: all 0.3s;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -256px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+.c-header-toggler{
+    margin-left: 1rem !important;
+}
+.c-header-nav .dropdown-item {
+    min-width: unset;
+}
+a:hover {
+    color: #1a69dc;
+    text-decoration: none;
+}
+@media (max-width: 991.98px) {
+    .c-sidebar-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1030;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000015;
+        transition: 0.3s;
+    }
+    .c-sidebar-backdrop.c-show {
+        opacity: 0.5;
+    }
+    .c-sidebar-backdrop.c-fade {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 397px) {
+    button.c-header-toggler.c-class-toggler.d-lg-none.mfe-auto {
+    min-width: 28px !important;
+    font-size: 1.09375rem;
+    margin-right: 5px !important;
+    }
+    /* img.sidebar-brand-full {
+        height: 58px;
+        width: 229px;
+        border-bottom: 1px solid #0b627b;
+    } */
+}
+.question_field .textarea-container {
+    margin-bottom: 0px !important;
+    margin-top: 8px !important;
+}

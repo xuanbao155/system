@@ -1,0 +1,20 @@
+
+@media screen and (min-width: 1271px) {
+    .question_body-cell2 {
+    width: 40% !important;
+    }
+    .question_body-container.question_body-cell_container.body-cell_container_check {
+        width: 40% !important;
+    }
+}
+@media screen and (max-width: 1028px) {
+    .question_body-container.question_body-cell_container.body-cell_container_item {
+        width: calc(100% - 50px);
+        padding: 0px 4px;
+    }
+}
+@media screen and (max-width: 779px) {
+    .question_body-container.question_body-cell_container.body-cell_container_wrap {
+        height: 174px;
+    }
+}
